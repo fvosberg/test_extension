@@ -1,0 +1,17 @@
+{
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/" },
+		{ "type": "composer", "url": "http://composertest.frederikvosberg.de/" }
+	],
+	"name": "frederikvosberg/test_extension",
+	"type": "typo3-cms-extension",
+	"description": "An extension to test composer and satis",
+	"require": {
+		"typo3/cms": "^7.6.0"
+	},
+	"replace": {
+		"test_extension": "self.version",
+		"typo3-ter/test_extension": "self.version",
+		"frederikvosberg/test_extension": "self.version"
+	}
+}
